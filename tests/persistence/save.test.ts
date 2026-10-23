@@ -49,6 +49,7 @@ describe("persistence", () => {
     expect(out.settings.arabicTextScale).toBe(1.6);
     expect(out.settings.masterVolume).toBe(0);
     expect(out.settings.difficulty).toBe("standard");
+    expect(out.settings.language).toBe("id");
     expect(out.settings.reducedMotion).toBe(false);
     expect(out.settings.controlScheme).toBe("dpad");
     expect(out.campaign.stageId).toBe(defaultSave().campaign.stageId);
@@ -61,6 +62,18 @@ describe("persistence", () => {
   it("respects the reduced-motion preference for fresh saves", () => {
     expect(defaultSave(true).settings.reducedMotion).toBe(true);
     expect(defaultSave(true).settings.screenShake).toBe(false);
+  });
+
+  it("upgrades a v1 foundation save to v2 without losing settings", () => {
+    const s = new MemStore();
+    s.setItem(SAVE_KEY, JSON.stringify({ version: 1, settings: { leftHanded: true, controlScheme: "dpad" }, campaign: { stageId: "x", checkpoint: null, completedStages: ["a"] }, quests: {}, lexicon: {} }));
+    const r = loadSave(s);
+    expect(r.status).toBe("loaded");
+    expect(r.data.version).toBe(SAVE_VERSION);
+    expect(r.data.settings.leftHanded).toBe(true);
+    expect(r.data.settings.controlScheme).toBe("dpad");
+    expect(r.data.legacy).toBeNull();
+    expect(r.data.lexiconStats).toEqual({});
   });
 
   it("migration machinery chains steps in order (test-only migrations)", () => {

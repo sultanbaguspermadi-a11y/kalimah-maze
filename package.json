@@ -5,12 +5,17 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "tsc --noEmit && vite build",
-    "typecheck": "tsc --noEmit",
+    "build": "npm run typecheck && vite build",
+    "typecheck": "tsc --noEmit && tsc -p tsconfig.tools.json",
     "test": "vitest run",
-    "validate:content": "vitest run tests/content tests/levels"
+    "validate:content": "vitest run tests/content tests/levels",
+    "extract:legacy": "node tools/extract-legacy-content.mjs",
+    "export:review": "vite-node tools/export-review.ts",
+    "release:check": "vite-node tools/release-check.ts",
+    "build:release": "npm run release:check && npm run build"
   },
   "devDependencies": {
+    "@types/node": "^22.20.5",
     "typescript": "^5.9.3",
     "vite": "^6.4.5",
     "vitest": "^2.1.9"

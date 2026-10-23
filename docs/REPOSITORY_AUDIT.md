@@ -16,3 +16,8 @@ Date: 2026-10-22
 ## Risks
 - If a prototype exists elsewhere, behavior worth preserving (saved progress, controls, audio toggles, vocabulary recall, reduced motion) cannot be regression-tested until supplied.
 - No Arabic subject-matter reviewer is identified; content ships with `reviewStatus: "unreviewed"` (see CONTENT_GUIDE.md).
+
+## Update 2026-10-22: legacy prototype supplied
+- File: `legacy/Kalimah_Maze_WordGate.html` (sha256 in `legacy/SHA256.txt`), single-file HTML. localStorage key `kalimah-maze-v1`, schema `v:1|v:2`.
+- Contains 24 vocabulary words and 15 nahwu questions (extracted to `src/content/data/`), settings, best scores, difficulty/mode/zone theme.
+- Migration implemented and documented in `docs/LEGACY_MIGRATION.md`. Prototype behavior beyond its save data (gameplay, controls, audio) has not been audited or ported.

@@ -4,6 +4,9 @@ import { testRoom } from "../content/stages/testRoom";
 import { testQuest } from "../content/quests/testQuest";
 import { QuestState } from "../quests/evaluator";
 import { loadSave, resetSave, writeSave, type SaveData } from "../persistence/save";
+import { importLegacyFromStorage } from "../persistence/legacyMigration";
+import { createImportDialog } from "../ui/importDialog";
+import { describeImport } from "../ui/importMessages";
 import { VIEW_H, VIEW_W, cameraFor, drawPlayer, drawStage, integerScale } from "./render";
 import type { Interactable } from "../core/types";
 
@@ -25,7 +28,14 @@ window.addEventListener("unhandledrejection", (e) => showFatal(String((e.reason 
 document.getElementById("fatal-reload")?.addEventListener("click", () => location.reload());
 
 const reducedMotionPref = window.matchMedia?.("(prefers-reduced-motion: reduce)").matches ?? false;
-let save: SaveData = loadSave(localStorage, reducedMotionPref).data;
+const firstLoad = loadSave(localStorage, reducedMotionPref);
+let startupNotice = "";
+if (firstLoad.status === "new") {
+  // First run on this origin: pick up the prototype's save if it is reachable. The legacy key is only read, never changed.
+  const r = importLegacyFromStorage(localStorage);
+  if (r.status !== "absent") startupNotice = describeImport(r).text;
+}
+let save: SaveData = (startupNotice ? loadSave(localStorage, reducedMotionPref) : firstLoad).data;
 const input = new InputState();
 const quest = new QuestState(testQuest, save.quests[testQuest.id]);
 
@@ -138,6 +148,7 @@ function draw(): void {
     text("Chronicles of the Lost Bazaar", 78, 76);
     text("Tekan E / Enter / Space atau ketuk Mulai", 52, 100);
     text("(adegan uji fondasi — bukan Morning Market)", 52, 116, 8, "#c9a76b");
+    if (startupNotice) text(startupNotice.slice(0, 64), 8, VIEW_H - 12, 6, "#c9a76b");
     return;
   }
   const cam = cameraFor(testRoom, pos.x, pos.y);
@@ -206,8 +217,10 @@ const mk = (label: string, fn: () => void): HTMLButtonElement => {
   b.type = "button"; b.textContent = label; b.style.cssText = "font:inherit;min-height:44px;padding:8px 18px;";
   b.addEventListener("click", fn); return b;
 };
+const openImport = createImportDialog(localStorage);
 titleBar.append(
   mk("Mulai", startGame),
+  mk("Impor / ekspor", openImport),
   mk("Hapus progres", () => {
     if (confirm("Hapus semua progres tersimpan? Tindakan ini tidak dapat dibatalkan.")) { resetSave(localStorage); location.reload(); }
   }),

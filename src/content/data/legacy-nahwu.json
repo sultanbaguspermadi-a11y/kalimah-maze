@@ -1,0 +1,456 @@
+{
+  "source": {
+    "kind": "legacy-prototype",
+    "file": "legacy/Kalimah_Maze_WordGate.html",
+    "sha256": "dd384a5ebab6256c334188e2c9713c49227e4af1a95d182b54f6a32b8f7e0cb6",
+    "note": "Authored in the prototype; no bibliographic source is recorded there. Not independently verified."
+  },
+  "entries": [
+    {
+      "newId": "nq-n1",
+      "legacyId": "n1",
+      "tier": 1,
+      "topic": "Isim, fi'il, harf",
+      "ar": "كَتَبَ الطَّالِبُ الدَّرْسَ",
+      "prompt": "Kata كَتَبَ termasuk jenis kata apa?",
+      "options": [
+        "Isim",
+        "Fi'il",
+        "Harf"
+      ],
+      "answer": "Fi'il",
+      "rationale": "كَتَبَ menunjukkan pekerjaan menulis pada masa lampau, jadi ia fi'il madhi.",
+      "provenance": {
+        "kind": "legacy-prototype",
+        "file": "legacy/Kalimah_Maze_WordGate.html",
+        "sha256": "dd384a5ebab6256c334188e2c9713c49227e4af1a95d182b54f6a32b8f7e0cb6",
+        "note": "Authored in the prototype; no bibliographic source is recorded there. Not independently verified."
+      },
+      "review": {
+        "status": "pending_review",
+        "reviewedBy": null,
+        "reviewedOn": null,
+        "evidence": null,
+        "notes": [],
+        "corrections": [],
+        "disputes": []
+      }
+    },
+    {
+      "newId": "nq-n2",
+      "legacyId": "n2",
+      "tier": 1,
+      "topic": "Isim, fi'il, harf",
+      "ar": "الكِتَابُ فِي الحَقِيبَةِ",
+      "prompt": "Kata فِي termasuk jenis kata apa?",
+      "options": [
+        "Isim",
+        "Fi'il",
+        "Harf"
+      ],
+      "answer": "Harf",
+      "rationale": "فِي adalah huruf jar. Maknanya baru lengkap bersama kata lain, dan ia tidak punya ciri isim atau fi'il.",
+      "provenance": {
+        "kind": "legacy-prototype",
+        "file": "legacy/Kalimah_Maze_WordGate.html",
+        "sha256": "dd384a5ebab6256c334188e2c9713c49227e4af1a95d182b54f6a32b8f7e0cb6",
+        "note": "Authored in the prototype; no bibliographic source is recorded there. Not independently verified."
+      },
+      "review": {
+        "status": "pending_review",
+        "reviewedBy": null,
+        "reviewedOn": null,
+        "evidence": null,
+        "notes": [],
+        "corrections": [],
+        "disputes": []
+      }
+    },
+    {
+      "newId": "nq-n3",
+      "legacyId": "n3",
+      "tier": 1,
+      "topic": "Isim, fi'il, harf",
+      "ar": "هَذِهِ مَدْرَسَةٌ",
+      "prompt": "Kata مَدْرَسَةٌ termasuk jenis kata apa?",
+      "options": [
+        "Isim",
+        "Fi'il",
+        "Harf"
+      ],
+      "answer": "Isim",
+      "rationale": "مَدْرَسَةٌ adalah nama tempat dan bertanwin. Tanwin adalah ciri isim.",
+      "provenance": {
+        "kind": "legacy-prototype",
+        "file": "legacy/Kalimah_Maze_WordGate.html",
+        "sha256": "dd384a5ebab6256c334188e2c9713c49227e4af1a95d182b54f6a32b8f7e0cb6",
+        "note": "Authored in the prototype; no bibliographic source is recorded there. Not independently verified."
+      },
+      "review": {
+        "status": "pending_review",
+        "reviewedBy": null,
+        "reviewedOn": null,
+        "evidence": null,
+        "notes": [],
+        "corrections": [],
+        "disputes": []
+      }
+    },
+    {
+      "newId": "nq-n4",
+      "legacyId": "n4",
+      "tier": 1,
+      "topic": "Jumlah",
+      "ar": "الطَّالِبُ مُجْتَهِدٌ",
+      "prompt": "Kalimat ini termasuk jenis jumlah apa?",
+      "options": [
+        "Jumlah ismiyyah",
+        "Jumlah fi'liyyah"
+      ],
+      "answer": "Jumlah ismiyyah",
+      "rationale": "Kalimat diawali isim (الطَّالِبُ), maka ia jumlah ismiyyah.",
+      "provenance": {
+        "kind": "legacy-prototype",
+        "file": "legacy/Kalimah_Maze_WordGate.html",
+        "sha256": "dd384a5ebab6256c334188e2c9713c49227e4af1a95d182b54f6a32b8f7e0cb6",
+        "note": "Authored in the prototype; no bibliographic source is recorded there. Not independently verified."
+      },
+      "review": {
+        "status": "pending_review",
+        "reviewedBy": null,
+        "reviewedOn": null,
+        "evidence": null,
+        "notes": [],
+        "corrections": [],
+        "disputes": []
+      }
+    },
+    {
+      "newId": "nq-n5",
+      "legacyId": "n5",
+      "tier": 1,
+      "topic": "Jumlah",
+      "ar": "ذَهَبَ المُعَلِّمُ إِلَى المَدْرَسَةِ",
+      "prompt": "Kalimat ini termasuk jenis jumlah apa?",
+      "options": [
+        "Jumlah ismiyyah",
+        "Jumlah fi'liyyah"
+      ],
+      "answer": "Jumlah fi'liyyah",
+      "rationale": "Kalimat diawali fi'il (ذَهَبَ), maka ia jumlah fi'liyyah.",
+      "provenance": {
+        "kind": "legacy-prototype",
+        "file": "legacy/Kalimah_Maze_WordGate.html",
+        "sha256": "dd384a5ebab6256c334188e2c9713c49227e4af1a95d182b54f6a32b8f7e0cb6",
+        "note": "Authored in the prototype; no bibliographic source is recorded there. Not independently verified."
+      },
+      "review": {
+        "status": "pending_review",
+        "reviewedBy": null,
+        "reviewedOn": null,
+        "evidence": null,
+        "notes": [],
+        "corrections": [],
+        "disputes": []
+      }
+    },
+    {
+      "newId": "nq-n6",
+      "legacyId": "n6",
+      "tier": 1,
+      "topic": "Mubtada' dan khabar",
+      "ar": "البَيْتُ كَبِيرٌ",
+      "prompt": "Manakah mubtada' pada kalimat ini?",
+      "options": [
+        "البَيْتُ",
+        "كَبِيرٌ"
+      ],
+      "answer": "البَيْتُ",
+      "rationale": "Mubtada' adalah isim marfu' di awal jumlah ismiyyah yang dibicarakan. كَبِيرٌ adalah khabarnya.",
+      "provenance": {
+        "kind": "legacy-prototype",
+        "file": "legacy/Kalimah_Maze_WordGate.html",
+        "sha256": "dd384a5ebab6256c334188e2c9713c49227e4af1a95d182b54f6a32b8f7e0cb6",
+        "note": "Authored in the prototype; no bibliographic source is recorded there. Not independently verified."
+      },
+      "review": {
+        "status": "pending_review",
+        "reviewedBy": null,
+        "reviewedOn": null,
+        "evidence": null,
+        "notes": [],
+        "corrections": [],
+        "disputes": []
+      }
+    },
+    {
+      "newId": "nq-n7",
+      "legacyId": "n7",
+      "tier": 1,
+      "topic": "Mubtada' dan khabar",
+      "ar": "المُعَلِّمُ نَشِيطٌ",
+      "prompt": "Manakah khabar pada kalimat ini?",
+      "options": [
+        "المُعَلِّمُ",
+        "نَشِيطٌ"
+      ],
+      "answer": "نَشِيطٌ",
+      "rationale": "Khabar melengkapi makna mubtada'. نَشِيطٌ menjelaskan keadaan المُعَلِّمُ.",
+      "provenance": {
+        "kind": "legacy-prototype",
+        "file": "legacy/Kalimah_Maze_WordGate.html",
+        "sha256": "dd384a5ebab6256c334188e2c9713c49227e4af1a95d182b54f6a32b8f7e0cb6",
+        "note": "Authored in the prototype; no bibliographic source is recorded there. Not independently verified."
+      },
+      "review": {
+        "status": "pending_review",
+        "reviewedBy": null,
+        "reviewedOn": null,
+        "evidence": null,
+        "notes": [],
+        "corrections": [],
+        "disputes": []
+      }
+    },
+    {
+      "newId": "nq-n8",
+      "legacyId": "n8",
+      "tier": 1,
+      "topic": "Isim, fi'il, harf",
+      "ar": "هَلْ ذَهَبَ الطَّالِبُ؟",
+      "prompt": "Kata هَلْ termasuk jenis kata apa?",
+      "options": [
+        "Isim",
+        "Fi'il",
+        "Harf"
+      ],
+      "answer": "Harf",
+      "rationale": "هَلْ adalah harf istifham (huruf tanya).",
+      "provenance": {
+        "kind": "legacy-prototype",
+        "file": "legacy/Kalimah_Maze_WordGate.html",
+        "sha256": "dd384a5ebab6256c334188e2c9713c49227e4af1a95d182b54f6a32b8f7e0cb6",
+        "note": "Authored in the prototype; no bibliographic source is recorded there. Not independently verified."
+      },
+      "review": {
+        "status": "pending_review",
+        "reviewedBy": null,
+        "reviewedOn": null,
+        "evidence": null,
+        "notes": [],
+        "corrections": [],
+        "disputes": []
+      }
+    },
+    {
+      "newId": "nq-n9",
+      "legacyId": "n9",
+      "tier": 2,
+      "topic": "Fa'il dan maf'ul bih",
+      "ar": "قَرَأَ الطَّالِبُ الكِتَابَ",
+      "prompt": "Manakah fa'il?",
+      "options": [
+        "قَرَأَ",
+        "الطَّالِبُ",
+        "الكِتَابَ"
+      ],
+      "answer": "الطَّالِبُ",
+      "rationale": "Fa'il adalah pelaku perbuatan, datang setelah fi'il, dan marfu' (di sini dhammah).",
+      "provenance": {
+        "kind": "legacy-prototype",
+        "file": "legacy/Kalimah_Maze_WordGate.html",
+        "sha256": "dd384a5ebab6256c334188e2c9713c49227e4af1a95d182b54f6a32b8f7e0cb6",
+        "note": "Authored in the prototype; no bibliographic source is recorded there. Not independently verified."
+      },
+      "review": {
+        "status": "pending_review",
+        "reviewedBy": null,
+        "reviewedOn": null,
+        "evidence": null,
+        "notes": [],
+        "corrections": [],
+        "disputes": []
+      }
+    },
+    {
+      "newId": "nq-n10",
+      "legacyId": "n10",
+      "tier": 2,
+      "topic": "Fa'il dan maf'ul bih",
+      "ar": "قَرَأَ الطَّالِبُ الكِتَابَ",
+      "prompt": "Manakah maf'ul bih?",
+      "options": [
+        "قَرَأَ",
+        "الطَّالِبُ",
+        "الكِتَابَ"
+      ],
+      "answer": "الكِتَابَ",
+      "rationale": "Maf'ul bih adalah objek yang dikenai perbuatan dan mansub (di sini fathah).",
+      "provenance": {
+        "kind": "legacy-prototype",
+        "file": "legacy/Kalimah_Maze_WordGate.html",
+        "sha256": "dd384a5ebab6256c334188e2c9713c49227e4af1a95d182b54f6a32b8f7e0cb6",
+        "note": "Authored in the prototype; no bibliographic source is recorded there. Not independently verified."
+      },
+      "review": {
+        "status": "pending_review",
+        "reviewedBy": null,
+        "reviewedOn": null,
+        "evidence": null,
+        "notes": [],
+        "corrections": [],
+        "disputes": []
+      }
+    },
+    {
+      "newId": "nq-n11",
+      "legacyId": "n11",
+      "tier": 2,
+      "topic": "Idhafah",
+      "ar": "هَذَا كِتَابُ الطَّالِبِ",
+      "prompt": "Pada ungkapan كِتَابُ الطَّالِبِ, kata الطَّالِبِ berkedudukan sebagai apa?",
+      "options": [
+        "Mudhaf",
+        "Mudhaf ilaih",
+        "Na't"
+      ],
+      "answer": "Mudhaf ilaih",
+      "rationale": "Kata yang disandarkan adalah mudhaf ilaih dan selalu majrur. كِتَابُ adalah mudhaf.",
+      "provenance": {
+        "kind": "legacy-prototype",
+        "file": "legacy/Kalimah_Maze_WordGate.html",
+        "sha256": "dd384a5ebab6256c334188e2c9713c49227e4af1a95d182b54f6a32b8f7e0cb6",
+        "note": "Authored in the prototype; no bibliographic source is recorded there. Not independently verified."
+      },
+      "review": {
+        "status": "pending_review",
+        "reviewedBy": null,
+        "reviewedOn": null,
+        "evidence": null,
+        "notes": [],
+        "corrections": [],
+        "disputes": []
+      }
+    },
+    {
+      "newId": "nq-n12",
+      "legacyId": "n12",
+      "tier": 2,
+      "topic": "Na't dan man'ut",
+      "ar": "جَاءَ طَالِبٌ مُجْتَهِدٌ",
+      "prompt": "Kata مُجْتَهِدٌ berkedudukan sebagai apa?",
+      "options": [
+        "Na't",
+        "Fa'il",
+        "Khabar"
+      ],
+      "answer": "Na't",
+      "rationale": "مُجْتَهِدٌ menyifati طَالِبٌ (man'ut) dan mengikuti i'rabnya (marfu'), jadi ia na't.",
+      "provenance": {
+        "kind": "legacy-prototype",
+        "file": "legacy/Kalimah_Maze_WordGate.html",
+        "sha256": "dd384a5ebab6256c334188e2c9713c49227e4af1a95d182b54f6a32b8f7e0cb6",
+        "note": "Authored in the prototype; no bibliographic source is recorded there. Not independently verified."
+      },
+      "review": {
+        "status": "pending_review",
+        "reviewedBy": null,
+        "reviewedOn": null,
+        "evidence": null,
+        "notes": [],
+        "corrections": [],
+        "disputes": []
+      }
+    },
+    {
+      "newId": "nq-n13",
+      "legacyId": "n13",
+      "tier": 2,
+      "topic": "Jar dan majrur",
+      "ar": "ذَهَبْتُ إِلَى المَدْرَسَةِ",
+      "prompt": "Mengapa kata المَدْرَسَةِ berharakat kasrah?",
+      "options": [
+        "Karena didahului huruf jar إِلَى",
+        "Karena ia fa'il",
+        "Karena ia khabar kana"
+      ],
+      "answer": "Karena didahului huruf jar إِلَى",
+      "rationale": "Isim setelah huruf jar menjadi majrur, dan tanda majrur-nya kasrah.",
+      "provenance": {
+        "kind": "legacy-prototype",
+        "file": "legacy/Kalimah_Maze_WordGate.html",
+        "sha256": "dd384a5ebab6256c334188e2c9713c49227e4af1a95d182b54f6a32b8f7e0cb6",
+        "note": "Authored in the prototype; no bibliographic source is recorded there. Not independently verified."
+      },
+      "review": {
+        "status": "pending_review",
+        "reviewedBy": null,
+        "reviewedOn": null,
+        "evidence": null,
+        "notes": [],
+        "corrections": [],
+        "disputes": []
+      }
+    },
+    {
+      "newId": "nq-n14",
+      "legacyId": "n14",
+      "tier": 2,
+      "topic": "Kana wa akhawatuha",
+      "ar": "كَانَ الجَوُّ جَمِيلًا",
+      "prompt": "Mengapa جَمِيلًا berharakat fathatain?",
+      "options": [
+        "Karena ia khabar kana (mansub)",
+        "Karena ia mudhaf ilaih",
+        "Karena ia mubtada'"
+      ],
+      "answer": "Karena ia khabar kana (mansub)",
+      "rationale": "Kana memasukkan mubtada' sebagai isimnya (marfu') dan menjadikan khabarnya mansub.",
+      "provenance": {
+        "kind": "legacy-prototype",
+        "file": "legacy/Kalimah_Maze_WordGate.html",
+        "sha256": "dd384a5ebab6256c334188e2c9713c49227e4af1a95d182b54f6a32b8f7e0cb6",
+        "note": "Authored in the prototype; no bibliographic source is recorded there. Not independently verified."
+      },
+      "review": {
+        "status": "pending_review",
+        "reviewedBy": null,
+        "reviewedOn": null,
+        "evidence": null,
+        "notes": [],
+        "corrections": [],
+        "disputes": []
+      }
+    },
+    {
+      "newId": "nq-n15",
+      "legacyId": "n15",
+      "tier": 2,
+      "topic": "Inna wa akhawatuha",
+      "ar": "إِنَّ العِلْمَ نُورٌ",
+      "prompt": "Apa harakat akhir العِلْمَ dan sebabnya?",
+      "options": [
+        "Fathah, karena isim inna mansub",
+        "Dhammah, karena mubtada'",
+        "Kasrah, karena majrur"
+      ],
+      "answer": "Fathah, karena isim inna mansub",
+      "rationale": "Inna menasabkan isimnya (العِلْمَ) dan tetap merafa'kan khabarnya (نُورٌ).",
+      "provenance": {
+        "kind": "legacy-prototype",
+        "file": "legacy/Kalimah_Maze_WordGate.html",
+        "sha256": "dd384a5ebab6256c334188e2c9713c49227e4af1a95d182b54f6a32b8f7e0cb6",
+        "note": "Authored in the prototype; no bibliographic source is recorded there. Not independently verified."
+      },
+      "review": {
+        "status": "pending_review",
+        "reviewedBy": null,
+        "reviewedOn": null,
+        "evidence": null,
+        "notes": [],
+        "corrections": [],
+        "disputes": []
+      }
+    }
+  ]
+}

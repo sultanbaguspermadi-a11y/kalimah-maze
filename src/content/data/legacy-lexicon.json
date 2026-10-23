@@ -1,0 +1,538 @@
+{
+  "source": {
+    "kind": "legacy-prototype",
+    "file": "legacy/Kalimah_Maze_WordGate.html",
+    "sha256": "dd384a5ebab6256c334188e2c9713c49227e4af1a95d182b54f6a32b8f7e0cb6",
+    "note": "Authored in the prototype; no bibliographic source is recorded there. Not independently verified."
+  },
+  "entries": [
+    {
+      "newId": "lex-buku",
+      "legacyId": "w0",
+      "zone": "school",
+      "ar": "كِتَابٌ",
+      "id": "buku",
+      "provenance": {
+        "kind": "legacy-prototype",
+        "file": "legacy/Kalimah_Maze_WordGate.html",
+        "sha256": "dd384a5ebab6256c334188e2c9713c49227e4af1a95d182b54f6a32b8f7e0cb6",
+        "note": "Authored in the prototype; no bibliographic source is recorded there. Not independently verified."
+      },
+      "review": {
+        "status": "pending_review",
+        "reviewedBy": null,
+        "reviewedOn": null,
+        "evidence": null,
+        "notes": [],
+        "corrections": [],
+        "disputes": []
+      }
+    },
+    {
+      "newId": "lex-pena",
+      "legacyId": "w1",
+      "zone": "school",
+      "ar": "قَلَمٌ",
+      "id": "pena",
+      "provenance": {
+        "kind": "legacy-prototype",
+        "file": "legacy/Kalimah_Maze_WordGate.html",
+        "sha256": "dd384a5ebab6256c334188e2c9713c49227e4af1a95d182b54f6a32b8f7e0cb6",
+        "note": "Authored in the prototype; no bibliographic source is recorded there. Not independently verified."
+      },
+      "review": {
+        "status": "pending_review",
+        "reviewedBy": null,
+        "reviewedOn": null,
+        "evidence": null,
+        "notes": [],
+        "corrections": [],
+        "disputes": []
+      }
+    },
+    {
+      "newId": "lex-sekolah",
+      "legacyId": "w2",
+      "zone": "school",
+      "ar": "مَدْرَسَةٌ",
+      "id": "sekolah",
+      "provenance": {
+        "kind": "legacy-prototype",
+        "file": "legacy/Kalimah_Maze_WordGate.html",
+        "sha256": "dd384a5ebab6256c334188e2c9713c49227e4af1a95d182b54f6a32b8f7e0cb6",
+        "note": "Authored in the prototype; no bibliographic source is recorded there. Not independently verified."
+      },
+      "review": {
+        "status": "pending_review",
+        "reviewedBy": null,
+        "reviewedOn": null,
+        "evidence": null,
+        "notes": [],
+        "corrections": [],
+        "disputes": []
+      }
+    },
+    {
+      "newId": "lex-guru",
+      "legacyId": "w3",
+      "zone": "school",
+      "ar": "مُعَلِّمٌ",
+      "id": "guru",
+      "provenance": {
+        "kind": "legacy-prototype",
+        "file": "legacy/Kalimah_Maze_WordGate.html",
+        "sha256": "dd384a5ebab6256c334188e2c9713c49227e4af1a95d182b54f6a32b8f7e0cb6",
+        "note": "Authored in the prototype; no bibliographic source is recorded there. Not independently verified."
+      },
+      "review": {
+        "status": "pending_review",
+        "reviewedBy": null,
+        "reviewedOn": null,
+        "evidence": null,
+        "notes": [],
+        "corrections": [],
+        "disputes": []
+      }
+    },
+    {
+      "newId": "lex-siswa",
+      "legacyId": "w4",
+      "zone": "school",
+      "ar": "طَالِبٌ",
+      "id": "siswa",
+      "provenance": {
+        "kind": "legacy-prototype",
+        "file": "legacy/Kalimah_Maze_WordGate.html",
+        "sha256": "dd384a5ebab6256c334188e2c9713c49227e4af1a95d182b54f6a32b8f7e0cb6",
+        "note": "Authored in the prototype; no bibliographic source is recorded there. Not independently verified."
+      },
+      "review": {
+        "status": "pending_review",
+        "reviewedBy": null,
+        "reviewedOn": null,
+        "evidence": null,
+        "notes": [],
+        "corrections": [],
+        "disputes": []
+      }
+    },
+    {
+      "newId": "lex-pelajaran",
+      "legacyId": "w5",
+      "zone": "school",
+      "ar": "دَرْسٌ",
+      "id": "pelajaran",
+      "provenance": {
+        "kind": "legacy-prototype",
+        "file": "legacy/Kalimah_Maze_WordGate.html",
+        "sha256": "dd384a5ebab6256c334188e2c9713c49227e4af1a95d182b54f6a32b8f7e0cb6",
+        "note": "Authored in the prototype; no bibliographic source is recorded there. Not independently verified."
+      },
+      "review": {
+        "status": "pending_review",
+        "reviewedBy": null,
+        "reviewedOn": null,
+        "evidence": null,
+        "notes": [],
+        "corrections": [],
+        "disputes": []
+      }
+    },
+    {
+      "newId": "lex-pasar",
+      "legacyId": "w6",
+      "zone": "market",
+      "ar": "سُوقٌ",
+      "id": "pasar",
+      "provenance": {
+        "kind": "legacy-prototype",
+        "file": "legacy/Kalimah_Maze_WordGate.html",
+        "sha256": "dd384a5ebab6256c334188e2c9713c49227e4af1a95d182b54f6a32b8f7e0cb6",
+        "note": "Authored in the prototype; no bibliographic source is recorded there. Not independently verified."
+      },
+      "review": {
+        "status": "pending_review",
+        "reviewedBy": null,
+        "reviewedOn": null,
+        "evidence": null,
+        "notes": [],
+        "corrections": [],
+        "disputes": []
+      }
+    },
+    {
+      "newId": "lex-harga",
+      "legacyId": "w7",
+      "zone": "market",
+      "ar": "ثَمَنٌ",
+      "id": "harga",
+      "provenance": {
+        "kind": "legacy-prototype",
+        "file": "legacy/Kalimah_Maze_WordGate.html",
+        "sha256": "dd384a5ebab6256c334188e2c9713c49227e4af1a95d182b54f6a32b8f7e0cb6",
+        "note": "Authored in the prototype; no bibliographic source is recorded there. Not independently verified."
+      },
+      "review": {
+        "status": "pending_review",
+        "reviewedBy": null,
+        "reviewedOn": null,
+        "evidence": null,
+        "notes": [],
+        "corrections": [],
+        "disputes": []
+      }
+    },
+    {
+      "newId": "lex-roti",
+      "legacyId": "w8",
+      "zone": "market",
+      "ar": "خُبْزٌ",
+      "id": "roti",
+      "provenance": {
+        "kind": "legacy-prototype",
+        "file": "legacy/Kalimah_Maze_WordGate.html",
+        "sha256": "dd384a5ebab6256c334188e2c9713c49227e4af1a95d182b54f6a32b8f7e0cb6",
+        "note": "Authored in the prototype; no bibliographic source is recorded there. Not independently verified."
+      },
+      "review": {
+        "status": "pending_review",
+        "reviewedBy": null,
+        "reviewedOn": null,
+        "evidence": null,
+        "notes": [],
+        "corrections": [],
+        "disputes": []
+      }
+    },
+    {
+      "newId": "lex-air",
+      "legacyId": "w9",
+      "zone": "market",
+      "ar": "مَاءٌ",
+      "id": "air",
+      "provenance": {
+        "kind": "legacy-prototype",
+        "file": "legacy/Kalimah_Maze_WordGate.html",
+        "sha256": "dd384a5ebab6256c334188e2c9713c49227e4af1a95d182b54f6a32b8f7e0cb6",
+        "note": "Authored in the prototype; no bibliographic source is recorded there. Not independently verified."
+      },
+      "review": {
+        "status": "pending_review",
+        "reviewedBy": null,
+        "reviewedOn": null,
+        "evidence": null,
+        "notes": [],
+        "corrections": [],
+        "disputes": []
+      }
+    },
+    {
+      "newId": "lex-kurma",
+      "legacyId": "w10",
+      "zone": "market",
+      "ar": "تَمْرٌ",
+      "id": "kurma",
+      "provenance": {
+        "kind": "legacy-prototype",
+        "file": "legacy/Kalimah_Maze_WordGate.html",
+        "sha256": "dd384a5ebab6256c334188e2c9713c49227e4af1a95d182b54f6a32b8f7e0cb6",
+        "note": "Authored in the prototype; no bibliographic source is recorded there. Not independently verified."
+      },
+      "review": {
+        "status": "pending_review",
+        "reviewedBy": null,
+        "reviewedOn": null,
+        "evidence": null,
+        "notes": [],
+        "corrections": [],
+        "disputes": []
+      }
+    },
+    {
+      "newId": "lex-jual-beli",
+      "legacyId": "w11",
+      "zone": "market",
+      "ar": "بَيْعٌ",
+      "id": "jual-beli",
+      "provenance": {
+        "kind": "legacy-prototype",
+        "file": "legacy/Kalimah_Maze_WordGate.html",
+        "sha256": "dd384a5ebab6256c334188e2c9713c49227e4af1a95d182b54f6a32b8f7e0cb6",
+        "note": "Authored in the prototype; no bibliographic source is recorded there. Not independently verified."
+      },
+      "review": {
+        "status": "pending_review",
+        "reviewedBy": null,
+        "reviewedOn": null,
+        "evidence": null,
+        "notes": [],
+        "corrections": [],
+        "disputes": []
+      }
+    },
+    {
+      "newId": "lex-komputer",
+      "legacyId": "w12",
+      "zone": "tech",
+      "ar": "حَاسُوبٌ",
+      "id": "komputer",
+      "provenance": {
+        "kind": "legacy-prototype",
+        "file": "legacy/Kalimah_Maze_WordGate.html",
+        "sha256": "dd384a5ebab6256c334188e2c9713c49227e4af1a95d182b54f6a32b8f7e0cb6",
+        "note": "Authored in the prototype; no bibliographic source is recorded there. Not independently verified."
+      },
+      "review": {
+        "status": "pending_review",
+        "reviewedBy": null,
+        "reviewedOn": null,
+        "evidence": null,
+        "notes": [],
+        "corrections": [],
+        "disputes": []
+      }
+    },
+    {
+      "newId": "lex-telepon",
+      "legacyId": "w13",
+      "zone": "tech",
+      "ar": "هَاتِفٌ",
+      "id": "telepon",
+      "provenance": {
+        "kind": "legacy-prototype",
+        "file": "legacy/Kalimah_Maze_WordGate.html",
+        "sha256": "dd384a5ebab6256c334188e2c9713c49227e4af1a95d182b54f6a32b8f7e0cb6",
+        "note": "Authored in the prototype; no bibliographic source is recorded there. Not independently verified."
+      },
+      "review": {
+        "status": "pending_review",
+        "reviewedBy": null,
+        "reviewedOn": null,
+        "evidence": null,
+        "notes": [],
+        "corrections": [],
+        "disputes": []
+      }
+    },
+    {
+      "newId": "lex-program",
+      "legacyId": "w14",
+      "zone": "tech",
+      "ar": "بَرْنَامَجٌ",
+      "id": "program",
+      "provenance": {
+        "kind": "legacy-prototype",
+        "file": "legacy/Kalimah_Maze_WordGate.html",
+        "sha256": "dd384a5ebab6256c334188e2c9713c49227e4af1a95d182b54f6a32b8f7e0cb6",
+        "note": "Authored in the prototype; no bibliographic source is recorded there. Not independently verified."
+      },
+      "review": {
+        "status": "pending_review",
+        "reviewedBy": null,
+        "reviewedOn": null,
+        "evidence": null,
+        "notes": [],
+        "corrections": [],
+        "disputes": []
+      }
+    },
+    {
+      "newId": "lex-jaringan",
+      "legacyId": "w15",
+      "zone": "tech",
+      "ar": "شَبَكَةٌ",
+      "id": "jaringan",
+      "provenance": {
+        "kind": "legacy-prototype",
+        "file": "legacy/Kalimah_Maze_WordGate.html",
+        "sha256": "dd384a5ebab6256c334188e2c9713c49227e4af1a95d182b54f6a32b8f7e0cb6",
+        "note": "Authored in the prototype; no bibliographic source is recorded there. Not independently verified."
+      },
+      "review": {
+        "status": "pending_review",
+        "reviewedBy": null,
+        "reviewedOn": null,
+        "evidence": null,
+        "notes": [],
+        "corrections": [],
+        "disputes": []
+      }
+    },
+    {
+      "newId": "lex-angka",
+      "legacyId": "w16",
+      "zone": "tech",
+      "ar": "رَقْمٌ",
+      "id": "angka",
+      "provenance": {
+        "kind": "legacy-prototype",
+        "file": "legacy/Kalimah_Maze_WordGate.html",
+        "sha256": "dd384a5ebab6256c334188e2c9713c49227e4af1a95d182b54f6a32b8f7e0cb6",
+        "note": "Authored in the prototype; no bibliographic source is recorded there. Not independently verified."
+      },
+      "review": {
+        "status": "pending_review",
+        "reviewedBy": null,
+        "reviewedOn": null,
+        "evidence": null,
+        "notes": [],
+        "corrections": [],
+        "disputes": []
+      }
+    },
+    {
+      "newId": "lex-layar",
+      "legacyId": "w17",
+      "zone": "tech",
+      "ar": "شَاشَةٌ",
+      "id": "layar",
+      "provenance": {
+        "kind": "legacy-prototype",
+        "file": "legacy/Kalimah_Maze_WordGate.html",
+        "sha256": "dd384a5ebab6256c334188e2c9713c49227e4af1a95d182b54f6a32b8f7e0cb6",
+        "note": "Authored in the prototype; no bibliographic source is recorded there. Not independently verified."
+      },
+      "review": {
+        "status": "pending_review",
+        "reviewedBy": null,
+        "reviewedOn": null,
+        "evidence": null,
+        "notes": [],
+        "corrections": [],
+        "disputes": []
+      }
+    },
+    {
+      "newId": "lex-rumah",
+      "legacyId": "w18",
+      "zone": "daily",
+      "ar": "بَيْتٌ",
+      "id": "rumah",
+      "provenance": {
+        "kind": "legacy-prototype",
+        "file": "legacy/Kalimah_Maze_WordGate.html",
+        "sha256": "dd384a5ebab6256c334188e2c9713c49227e4af1a95d182b54f6a32b8f7e0cb6",
+        "note": "Authored in the prototype; no bibliographic source is recorded there. Not independently verified."
+      },
+      "review": {
+        "status": "pending_review",
+        "reviewedBy": null,
+        "reviewedOn": null,
+        "evidence": null,
+        "notes": [],
+        "corrections": [],
+        "disputes": []
+      }
+    },
+    {
+      "newId": "lex-pintu",
+      "legacyId": "w19",
+      "zone": "daily",
+      "ar": "بَابٌ",
+      "id": "pintu",
+      "provenance": {
+        "kind": "legacy-prototype",
+        "file": "legacy/Kalimah_Maze_WordGate.html",
+        "sha256": "dd384a5ebab6256c334188e2c9713c49227e4af1a95d182b54f6a32b8f7e0cb6",
+        "note": "Authored in the prototype; no bibliographic source is recorded there. Not independently verified."
+      },
+      "review": {
+        "status": "pending_review",
+        "reviewedBy": null,
+        "reviewedOn": null,
+        "evidence": null,
+        "notes": [],
+        "corrections": [],
+        "disputes": []
+      }
+    },
+    {
+      "newId": "lex-teman",
+      "legacyId": "w20",
+      "zone": "daily",
+      "ar": "صَدِيقٌ",
+      "id": "teman",
+      "provenance": {
+        "kind": "legacy-prototype",
+        "file": "legacy/Kalimah_Maze_WordGate.html",
+        "sha256": "dd384a5ebab6256c334188e2c9713c49227e4af1a95d182b54f6a32b8f7e0cb6",
+        "note": "Authored in the prototype; no bibliographic source is recorded there. Not independently verified."
+      },
+      "review": {
+        "status": "pending_review",
+        "reviewedBy": null,
+        "reviewedOn": null,
+        "evidence": null,
+        "notes": [],
+        "corrections": [],
+        "disputes": []
+      }
+    },
+    {
+      "newId": "lex-makanan",
+      "legacyId": "w21",
+      "zone": "daily",
+      "ar": "طَعَامٌ",
+      "id": "makanan",
+      "provenance": {
+        "kind": "legacy-prototype",
+        "file": "legacy/Kalimah_Maze_WordGate.html",
+        "sha256": "dd384a5ebab6256c334188e2c9713c49227e4af1a95d182b54f6a32b8f7e0cb6",
+        "note": "Authored in the prototype; no bibliographic source is recorded there. Not independently verified."
+      },
+      "review": {
+        "status": "pending_review",
+        "reviewedBy": null,
+        "reviewedOn": null,
+        "evidence": null,
+        "notes": [],
+        "corrections": [],
+        "disputes": []
+      }
+    },
+    {
+      "newId": "lex-waktu",
+      "legacyId": "w22",
+      "zone": "daily",
+      "ar": "وَقْتٌ",
+      "id": "waktu",
+      "provenance": {
+        "kind": "legacy-prototype",
+        "file": "legacy/Kalimah_Maze_WordGate.html",
+        "sha256": "dd384a5ebab6256c334188e2c9713c49227e4af1a95d182b54f6a32b8f7e0cb6",
+        "note": "Authored in the prototype; no bibliographic source is recorded there. Not independently verified."
+      },
+      "review": {
+        "status": "pending_review",
+        "reviewedBy": null,
+        "reviewedOn": null,
+        "evidence": null,
+        "notes": [],
+        "corrections": [],
+        "disputes": []
+      }
+    },
+    {
+      "newId": "lex-jalan",
+      "legacyId": "w23",
+      "zone": "daily",
+      "ar": "طَرِيقٌ",
+      "id": "jalan",
+      "provenance": {
+        "kind": "legacy-prototype",
+        "file": "legacy/Kalimah_Maze_WordGate.html",
+        "sha256": "dd384a5ebab6256c334188e2c9713c49227e4af1a95d182b54f6a32b8f7e0cb6",
+        "note": "Authored in the prototype; no bibliographic source is recorded there. Not independently verified."
+      },
+      "review": {
+        "status": "pending_review",
+        "reviewedBy": null,
+        "reviewedOn": null,
+        "evidence": null,
+        "notes": [],
+        "corrections": [],
+        "disputes": []
+      }
+    }
+  ]
+}

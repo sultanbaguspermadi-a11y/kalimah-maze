@@ -1,5 +1,9 @@
 /** Shared domain types. Kept DOM-free so every system is testable in Node. */
-export type ReviewStatus = "unreviewed" | "in-review" | "reviewed";
+/**
+ * `reviewed` is only ever set from documented human review evidence (see ReviewRecord).
+ * Everything the implementer authored or imported starts as `pending_review`.
+ */
+export type ReviewStatus = "pending_review" | "reviewed" | "disputed" | "withdrawn";
 
 export interface Point { x: number; y: number }
 

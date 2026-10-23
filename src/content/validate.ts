@@ -1,4 +1,4 @@
-import type { QuestDef, StageDef, ReviewStatus } from "../core/types";
+import type { QuestDef, StageDef } from "../core/types";
 
 export interface Issue { severity: "error" | "warning"; where: string; message: string }
 
@@ -48,19 +48,5 @@ export function validateStageShape(s: StageDef): Issue[] {
     seen.add(i.id);
   }
   for (const p of s.flagProducers) if (!seen.has(p.by)) err(`flag "${p.flag}" produced by unknown interactable "${p.by}"`);
-  return issues;
-}
-
-export interface ReviewMeta { reviewStatus: ReviewStatus; reviewedBy?: string; reviewedOn?: string }
-
-/** Rejects `reviewed` without a named reviewer and date (PRD §20.6: never fabricate review status). */
-export function validateReview(id: string, m: ReviewMeta, mandatory: boolean, release: boolean): Issue[] {
-  const issues: Issue[] = [];
-  if (m.reviewStatus === "reviewed" && (!m.reviewedBy || !m.reviewedOn)) {
-    issues.push({ severity: "error", where: id, message: "status 'reviewed' requires reviewedBy and reviewedOn" });
-  }
-  if (mandatory && m.reviewStatus !== "reviewed") {
-    issues.push({ severity: release ? "error" : "warning", where: id, message: "mandatory item is not expert-reviewed" });
-  }
   return issues;
 }
